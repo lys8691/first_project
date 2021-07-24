@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oscar_test_1/screens/basic1_screen.dart';
 import 'package:oscar_test_1/screens/home_screen.dart';
 
 void main() {
@@ -10,8 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: HomeScreen(),
+      home: Basic1Screen(),
+      routes: {},
     );
   }
 }
